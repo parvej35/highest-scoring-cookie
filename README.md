@@ -29,7 +29,7 @@ git clone https://github.com/parvej35/highest-scoring-cookie
 
 # 3) Start the server and make sure that server is up and running.
 
-# 4) Open the file ##calculate_score.php##.
+# 4) Open the file __calculate_score.php__.
 
 # 5) Change the below variables as per needed: 
     - ##$teaspoon_number = 100##; 
