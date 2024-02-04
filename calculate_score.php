@@ -38,7 +38,7 @@ try {
 
     $teaspoon_number = 100;//Variable to hold the number of teaspoons to be used
 
-    $max_allowed_calories = 0; //If this is set to 0, the calories will not be considered while calculating the recipe score
+    $max_allowed_calories = 500; //If this is set to 0, the calories will not be considered while calculating the recipe score
 
     //-------Input Section-------
     
@@ -64,11 +64,11 @@ try {
     echo "\n\nTotal number of ingredients: <b>".$total_ingredients."</b>";
     echo "\nTotal number of teaspoons: <b>".$teaspoon_number."</b>";
     
-    echo "\n\nTotal score of highest-scoring cookie: <b>".$total_score."</b>";
+    echo "\n\nThe highest-scoring cookie: <b>".$total_score."</b>";
     if($max_allowed_calories > 0) {
-        echo "\n(Considering the maximum allowed calories: <b>".$max_allowed_calories."</b>)";
+        echo "\n(Considering the maximum allowed calorie: <b>".$max_allowed_calories."</b>)";
     } else {
-        echo "\n(Without considering the calory.)";
+        echo "\n(Without considering the calorie.)";
     }
     //echo  "\n\nScore: ". ($capacity*$durability*$flavor*$texture) . "\n";
 
@@ -77,7 +77,7 @@ try {
     echo "\nDurability: <b>".$durability."</b>";
     echo "\nFlavor: <b>".$flavor."</b>";
     echo "\nTexture: <b>".$texture."</b>";
-    echo "\nCalory: <b>".$calories."</b>";
+    echo "\nCalorie: <b>".$calories."</b>";
 
     echo "\n\n<b>Recipe of the highest-scoring cookie: </b>";
     for ($counter = 0; $counter < $total_ingredients; $counter++) {
