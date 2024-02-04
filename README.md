@@ -22,7 +22,7 @@ Cookie Crafting Challenge: Finding the Perfect Recipe
 
 ## Steps to run the application:
 
-1) Get the code from Git repository
+1) Get the code from Git repository <br>
 git clone https://github.com/parvej35/highest-scoring-cookie
 
 2) Put the folder into an application server like Apache.
@@ -32,9 +32,9 @@ git clone https://github.com/parvej35/highest-scoring-cookie
 4) Open the file __calculate_score.php__.
 
 5) Change the below variables as per needed: 
-    - ##$teaspoon_number = 100##; 
-    (Variable to hold the number of teaspoons to be used.)
-    - ##$max_allowed_calories = 0##; 
+    - __$teaspoon_number = 100__;<br> 
+    (Variable to hold the number of teaspoons to be used.)<br><br>
+    - __$max_allowed_calories = 0__; <br>
     (If set to 0, the calories will not be considered while calculating the recipe score.)
 
 6) Open the browser and browse the file : http://localhost/LEADS_IO/calculate_score.php
