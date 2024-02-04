@@ -29,22 +29,19 @@ git clone https://github.com/parvej35/highest-scoring-cookie
 
 # 3) Start the server and make sure that server is up and running.
 
-# 4) Open the file <b>calculate_score.php</b>.
+# 4) Open the file **calculate_score.php**.
 
 # 5) Change the below variables as per needed: 
-    - $teaspoon_number = 100; //Variable to hold the number of teaspoons to be used
-    - $max_allowed_calories = 0; //If this is set to 0, the calories will not be considered while calculating the recipe score
+    - **$teaspoon_number = 100**; 
+    (Variable to hold the number of teaspoons to be used.)
+    - **$max_allowed_calories = 0**; 
+    (If set to 0, the calories will not be considered while calculating the recipe score.)
 
 # 6) Open the browser and browse the file : http://localhost/LEADS_IO/calculate_score.php
 ```
 
 ## Developer:
 Chowdhury PA, Parvej (parvej35@gmail.com)<br>
-
-## Supervisor:
-Nick Huls (n.huls@tenkate.nl)<br>
-Assistant Plant Manager<br>
-Ten Kate Holding B.V.
 
 ## Licence:
 
