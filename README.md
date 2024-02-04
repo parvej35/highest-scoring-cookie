@@ -21,7 +21,7 @@ Cookie Crafting Challenge: Finding the Perfect Recipe
 ```
 
 ## Steps to run the application:
-```bash
+
 # 1) Get the code from Git repository
 git clone https://github.com/parvej35/highest-scoring-cookie
 
@@ -38,7 +38,6 @@ git clone https://github.com/parvej35/highest-scoring-cookie
     (If set to 0, the calories will not be considered while calculating the recipe score.)
 
 # 6) Open the browser and browse the file : http://localhost/LEADS_IO/calculate_score.php
-```
 
 ## Developer:
 Chowdhury PA, Parvej (parvej35@gmail.com)<br>
