@@ -1,4 +1,4 @@
-## Assignment Title:
+## Assignment title:
 Cookie Crafting Challenge: Finding the Perfect Recipe
 
 ## Application structure:
@@ -22,7 +22,7 @@ Cookie Crafting Challenge: Finding the Perfect Recipe
 
 ## Steps to run the application:
 
-1) Get the code from Git repository <br>
+1) Get the code from Git repository : <br>
 git clone https://github.com/parvej35/highest-scoring-cookie
 
 2) Put the folder into an application server like Apache.
@@ -45,4 +45,4 @@ Chowdhury PA, Parvej (parvej35@gmail.com)<br>
 ## Licence:
 
 Distributed under the GNU General Public License v3.0. 
-For more information <a href='https://www.gnu.org/licenses/gpl-3.0.en.html#license-text' target='_blank'> license</a>.
+For more information <a href='https://www.gnu.org/licenses/gpl-3.0.en.html#license-text' target='_blank'> GNU GENERAL PUBLIC LICENSE</a>.
