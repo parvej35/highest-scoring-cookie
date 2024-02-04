@@ -30,4 +30,8 @@ class Ingredient
         $this->texture = $texture;
         $this->calories = $calories;
     }
+
+    public function get_name() {
+        return $this->name;
+    }
 }
